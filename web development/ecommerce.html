@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width ,initial-scale=1.0">
+        <title>website</title>
+
+        <link rel="stylesheet" href="style.css">
+        <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css" integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous"/> 
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap" rel="stylesheet">
+     </head>
+    
+   
+    <body>
+        <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    
+                    <a href="ecommerce.html"><img src="images/logo.png" width="75px"></a>
+                    
+                    <h3>HOSHI BRINGS ENJOYMENT</h3>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="ecommerce.html">Home</a> </li>
+                        <li><a href="products.html">Products</a> </li>
+                        <li><a href="about.html">About</a> </li>
+                        <li><a href="contact.html">Contact</a> </li>
+                        <li><a href="account.html">Account</a> </li>
+                    </ul>
+                </nav>
+
+                <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+                <img src="images/menu.png"  class="menu-icon" onclick="menutoggle()" >
+    
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Give Your Workout<br> A New Style!!</h1>
+                    <p>“If you want something you've never had, you must be willing to do something you've never done.”</p>
+                    <p>“The body achieves what the mind believes."</p>
+                    <a href="products.html" class="btn">Explore Now &#8594;</a>
+
+
+                </div>
+                
+                <div class="col-2">
+                    <img src="images/1.jpg">
+
+                </div>
+            </div>
+
+        </div>
+        </div>
+
+        <!-- featured categories --- -->
+        <div class="categories">
+            <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/crt1.jpg">
+
+                </div>
+                <div class="col-3">
+                    <img src="images/crt2.jpeg">
+                </div>
+                <div class="col-3">
+                    <img src="images/crt6.jpg">
+                </div>
+                
+            </div>
+            </div>
+        </div>   
+        
+        <!-- featured products--- -->
+        <div class="small-container">
+            <h2 class="title"><b>Featured Products</b> </h2>
+            <div class="rows">
+                <div class="col-4">
+                    <a href="products-details.html"><img src="images/blue4.png" ></a>
+                    <a href="products-details.html"><h4>Blue Tshirt</h4></a>
+                    <div class="rating">
+                       
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        
+                        
+                        <i class="fa fa-star-o"></i>
+                        
+
+                    </div>
+                    <p>$50.99</p>
+                    
+                </div>
+                
+                <div class="col-4">
+                    <img src="images/t1.jpg" >
+                    <h4>Shoes</h4>
+                    <div class="rating">
+                       
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        
+                        
+                        <i class="fa fa-star-o"></i>
+                        
+
+                    </div>
+                    <p>$29.00</p>
+                    
+                </div>
+
+                <div class="col-4">
+                    <img src="images/t2.jpeg" >
+                    <h4>Kids</h4>
+                    <div class="rating">
+                       
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        
+                        
+                        <i class="fa fa-star-o"></i>
+                        
+
+                    </div>
+                    <p>$30.99</p>
+                    
+                </div>
+
+                <div class="col-4">
+                    <img src="images/t3.jpeg" >
+                    <h4>Women</h4>
+                    <div class="rating">
+                       
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+
+                        
+                    </div>
+                    <p>$58.99</p>
+                    
+                </div>
+
+            </div>
+
+            <h2 class="title">Latest products</h2>
+            <div class="rows">
+                <div class="col-4">
+                    <img src="images/crt8.jpg" >
+                    <h4>Nike Shoes</h4>
+                    <div class="rating">
+                       
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        
+                        
+                        <i class="fa fa-star-half-o"></i>
+                        
+
+                    </div>
+                    <p>$50.99</p>
+                    
+                </div>
+                
+                <div class="col-4">
+                    <img src="images/crt3.jpg" >
+                    <h4>Ladies Watch</h4>
+                    <div class="rating">
+                       
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        
+                        
+                        <i class="fa fa-star-o"></i>
+                        
+
+                    </div>
+                    <p>$45.00</p>
+                    
+                </div>
+
+                <div class="col-4">
+                    <img src="images/t4.jpg" >
+                    <h4>Fashion</h4>
+                    <div class="rating">
+                       
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        
+                        
+                        <i class="fa fa-star-o"></i>
+                        
+
+                    </div>
+                    <p>$60.99</p>
+                    
+                </div>
+
+                <div class="col-4">
+                    <img src="images/socks.jpg" >
+                    <h4>Women</h4>
+                    <div class="rating">
+                       
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+
+                        
+                    </div>
+                    <p>$58.99</p>
+                    
+                </div>
+
+            </div>
+
+            <div class="rows">
+                <div class="col-4">
+                    <img src="images/watch.jpg" >
+                    <h4>Men Watches</h4>
+                    <div class="rating">
+                       
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        
+                        
+                        <i class="fa fa-star-half-o"></i>
+                        
+
+                    </div>
+                    <p>$50.99</p>
+                    
+                </div>
+                
+                <div class="col-4">
+                    <img src="images/jeans.jpg" >
+                    <h4>Jeans</h4>
+                    <div class="rating">
+                       
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        
+                        
+                        <i class="fa fa-star-o"></i>
+                        
+
+                    </div>
+                    <p>$29.00</p>
+                    
+                </div>
+
+                <div class="col-4">
+                    <img src="images/pants.jpeg" >
+                    <h4>Pants</h4>
+                    <div class="rating">
+                       
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        
+                        
+                        <i class="fa fa-star-half-o"></i>
+                        
+
+                    </div>
+                    <p>$30.99</p>
+                    
+                </div>
+
+                <div class="col-4">
+                    <img src="images/crt5.jpg" >
+                    <h4>Women</h4>
+                    <div class="rating">
+                       
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+
+                        
+                    </div>
+                    <p>$58.99</p>
+                    
+                </div>
+
+            </div>
+
+            <div class="rows">
+                <div class="col-4">
+                    <img src="images/shirt.jpg" >
+                    <h4>shirt</h4>
+                    <div class="rating">
+                       
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        
+                        
+                        <i class="fa fa-star-half-o"></i>
+                        
+
+                    </div>
+                    <p>$50.99</p>
+                    
+                </div>
+                
+                <div class="col-4">
+                    <img src="images/lu.jpg" >
+                    <h4>Pants</h4>
+                    <div class="rating">
+                       
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        
+                        
+                        <i class="fa fa-star-half-o"></i>
+                        
+
+                    </div>
+                    <p>$75.00</p>
+                    
+                </div>
+
+                <div class="col-4">
+                    <img src="images/hand.jpeg" >
+                    <h4>Cotton Tshirts</h4>
+                    <div class="rating">
+                       
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        
+                        
+                        <i class="fa fa-star-half-o"></i>
+                        
+
+                    </div>
+                    <p>$89.00</p>
+                    
+                </div>
+
+                <div class="col-4">
+                    <img src="images/watch2.jpg" >
+                    <h4>Watch</h4>
+                    <div class="rating">
+                       
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+
+                        
+                    </div>
+                    <p>$70.55</p>
+                    
+                </div>
+
+            </div>
+
+            <div class="rows">
+                <div class="col-4">
+                    <img src="images/black.jpg" >
+                    <h4>Black shirt</h4>
+                    <div class="rating">
+                       
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        
+                        
+                        <i class="fa fa-star-half-o"></i>
+                        
+
+                    </div>
+                    <p>$50.99</p>
+                    
+                </div>
+                
+                <div class="col-4">
+                    <img src="images/crt7.jpg" >
+                    <h4>Leather Shoes</h4>
+                    <div class="rating">
+                       
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        
+                        
+                        <i class="fa fa-star-half-o"></i>
+                        
+
+                    </div>
+                    <p>$75.00</p>
+                    
+                </div>
+
+                <div class="col-4">
+                    <img src="images/formals.jpg" >
+                    <h4>Formals</h4>
+                    <div class="rating">
+                       
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        
+                        
+                        <i class="fa fa-star"></i>
+                        
+
+                    </div>
+                    <p>$89.00</p>
+                    
+                </div>
+
+                <div class="col-4">
+                    <img src="images/cars.jpg" >
+                    <h4>Sports Shoes</h4>
+                    <div class="rating">
+                       
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+
+                        
+                    </div>
+                    <p>$30.55</p>
+                    
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- offers -->
+        <div class="offer">
+        <div class="small-container">
+            <div class="row">   
+                <div class="col-2">
+                    <img src="images/exclusive.png" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Exclusively Available on <b>HOSHI</b> </p>
+                    <h1>Smart Brand</h1>
+                    <small>Rewy E750 Foldable & Portable Over-Ear Wireless Bluetooth V5.0 Headphones
+                         with Deep Bass HD Sound/SD Card Slot/Long Battery Life with mic & Aux Port for All Smartphones & Other Devices (Multi-Colour)</small>
+                    <br>
+                    <a href="ecommerce.html" class="btn">Buy Now &#8594;</a>
+                </div>
+
+            </div>
+        </div>
+        </div>
+
+        <!-- ----testimonial ---- -->
+        <div class="testimonial">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-3">
+                        <i class="fa fa-quote-left"></i>
+                        <p>Lorem Ipsum is simply dummy text of the printing
+                            and typesetting industry .Lorem Ipsum has been the industry's standard dummy test ..</p>
+                            <i class="fa fa-quote-right"></i>
+                            <div class="rating">
+                       
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                
+        
+                                
+                            </div>
+                            
+                        <img src="images/cel1.jpg"  >
+                        <h2>Scan parker</h2>
+                        
+                        
+                    </div>
+
+                    <div class="col-3">
+                        <i class="fa fa-quote-left"></i>
+                        <p>Lorem Ipsum is simply dummy text of the printing
+                            and typesetting industry .Lorem Ipsum has been the industry's standard dummy test ..</p>
+                        <i class="fa fa-quote-right"></i>
+                            <div class="rating">
+                       
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                
+        
+                                
+                            </div>
+                       
+                            
+                        <img src="images/alibhatt.jpg"  >
+                        <h2>Ali Bhatt</h2>
+                        
+                        
+                    </div>
+
+                    <div class="col-3">
+                        <i class="fa fa-quote-left"></i>
+                        <p>Lorem Ipsum is simply dummy text of the printing
+                            and typesetting industry .Lorem Ipsum has been the industry's standard dummy test ..</p>
+                        <i class="fa fa-quote-right"></i>
+                            <div class="rating">
+                       
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                
+        
+                                
+                            </div>
+                            
+                        <img src="images/ritikroshan.jpg"  >
+                        <h2>Hrithik Roshan</h2>
+                        
+                        
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    
+           
+        <!-- ---brands--- -->
+        <div class="brands">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-5">
+                        <img src="images/goorej.png">
+
+                    </div>
+                    <div class="col-5">
+                        <img src="images/oppo.png">
+                        
+                    </div>
+                    <div class="col-5">
+                        <img src="images/oneplus.png">
+                        
+                    </div>
+                    <div class="col-5">
+                        <img src="images/paypal.png">
+                        
+                    </div>
+                    <div class="col-5">
+                        <img src="images/phiips.png">
+                        
+                    </div>
+                    
+                </div>
+
+            </div>
+        </div>
+
+        <!-- ---footer--- -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <p>Download App For Android and ios mobile phone.</p>
+                        <div class="app-logo">
+                            <img src="images/playstore..png">
+                            <img src="images/appstore.png">
+                        </div>
+                    </div>
+                    
+                    <div class="footer-col-2">
+                        <i><b><center>HOSHI</center></b></i>
+                        <img src="images/logo.png">
+                        <p>Our Purose Is To SUstainably Make the Oleasure and Benefits
+                            of Sports Accessible to the Many.
+                        </p>
+                    </div>
+
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Policy</li>
+                            <li>Join Affiliate</li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col-4">
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>YouTube</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                <hr>
+                <p class="Copyright">Copyright 2022</p>
+            </div>
+        </div>
+
+        <!-- ---js for toggle menu--- -->
+
+        <script>
+            var MenuItems= document.getElementById("MenuItems");
+
+            MenuItems.style.maxHeight = "0px";
+
+            function menutoggle()
+            {
+                if(MenuItems.style.maxHeight=="0px")
+                {
+                    MenuItems.style.maxHeight="200px";
+                }
+                else
+                {
+                    MenuItems.style.maxHeight="0px";
+                }
+            }
+        </script>
+        
+
+      
+
+
+    </body>
+</html>>
